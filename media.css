@@ -1,0 +1,310 @@
+/* For responsive */
+@media(max-width:1000px){
+    .nav {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+    .toggle-btn i{
+        color: rgb(238, 199, 133);
+        margin: 50px;
+        display: block;
+        font-size: 35px;
+    }
+    .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu a{
+        padding: 0.5rem;
+    }
+    .container1{
+        gap: 4rem;
+    }
+    .box1{
+        height: 370px;
+        width: 35vw;
+        gap: 0.5em;
+        position: relative;
+        top: 60px;
+    }
+    .box1 h3{
+        font-size: 2.5vw;
+    }
+    .box1 p{
+        font-size: 2.3vw;
+    }
+    .box{
+        width: 30vw;
+    }
+    .btn{
+       width: 7vw; 
+    }
+    .box1 img{
+       width: 25vw;
+    }
+    .icon{
+        width: 30vw;
+    }
+    .icon i span{
+        font-size: 2vw;
+    }
+    .box2{
+        top: 70px;
+    }
+    .text p{
+        font-size: 2vw;
+    }
+    .box2 img{
+        height: 100px;
+        width: 20vw;
+    }
+    .box2 i{
+        font-size: 3vw;
+    }
+    .box2 h5{
+        top: 8px;
+        left: 5px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .box3{
+        margin: 0;
+        width: 80vw;
+        border-radius: 20px;
+    }
+    .box3 .btn2{
+        width: 23vw;
+        font-size: 2vw;
+    }
+    .box3 span{
+        font-size: 5vw;
+    }
+    .box3 hr{
+        width: 70vw;
+    }
+    .box3 p{
+        font-size: 2.7vw;
+    }
+    .dir span{
+        top: -12px;
+        left: 4vw;
+    }
+    .para{
+       left: 0vw;
+    }
+    .box4{
+        margin: 0;
+        width: 80vw;
+        border-radius: 20px;
+    }
+    .box4 h2{
+        font-size: 5svw;
+    }
+    .box4 img{
+        left: 7vw;
+        top: 0;
+        width: 8vw;
+    }
+    .box4 hr{
+        width: 70vw;
+    }
+    .dabba1{
+        width: 15vw;
+    }
+    .dabba1 img{
+        width: 10vw;
+        height: 15vh;
+        margin: 10px 0px 0px -4vw;
+    }
+    .dabba1 h3{
+        font-size: 3vw;
+    }
+    .dabba1 p{
+        font-size: 2vw;
+    }
+}
+@media(max-width:570px){
+    .toggle-btn i{
+        color: rgb(238, 199, 133);
+        margin: 53px 20px 0 0;
+        display: block;
+        font-size: 30px;
+    }
+   
+    .dropdown-menu a{
+        font-size: 4vw;
+        padding: 0.3rem;
+    }
+    .open{
+        height: 200px;
+    }
+    .head img{
+        height: 80px;
+        margin: 30px 30px;
+    }
+    .head span{
+        /* border: 2px solid red; */
+        position: relative;
+        right: 40px;
+        top: 46px;
+        font-size: 42px;
+    }
+    .container1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    /* box1 */
+
+    .box1{
+        height: 400px;
+        width: 85vw;
+        margin: 0;
+        gap: 0.5em;
+        position: relative;
+        top: 60px;
+    }
+    .box1 h3{
+        font-size: 6vw;
+    }
+    .box1 p{
+        font-size: 4.5vw;
+    }
+    .box{
+        width: 60vw;
+    }
+    .btn{
+       width: 10vw; 
+       font-size: 4vw;
+    }
+    .box1 img{
+       height: 150px;
+       width: 55vw;
+    }
+    .icon{
+        width: 65vw;
+        margin-top: 0.3rem;
+    }
+    .icon i{
+        font-size: 5vw;
+    }
+    .icon i span{
+        font-size: 4vw;
+    }
+    /* box2 */
+    .box2{
+        /* border: 2px solid red; */
+        width: 80vw;
+    }
+    .box2 h1{
+        font-size: 7vw;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+        gap: 0.9rem;
+    }
+    .box2 img{
+        height: 110px;
+        width: 45vw;
+    }
+    .text p{
+        font-size: 4vw;
+    }
+    .box2 i{
+        font-size: 6vw;
+    }
+    .box2 h5{
+        font-size: 4vw;
+        top: 14px;
+        left: 6px;
+    }
+    
+    /* box3 */
+    .box3{
+        height: 300px;
+    }
+    .box3 .btn2{
+        width: 25vw;
+        font-size: 2.5vw;
+    }
+    .box3 span{
+        margin-left: -5px;
+    }
+    .box3 hr{
+        width: 70vw;
+    }
+    .box3 p{
+        font-size: 4vw;
+    }
+    .dir span{
+        top: -8px;
+        left: 0vw;
+    }
+    .box3 .para{
+        font-size: 3.5vw;
+        left: -1.5em;
+    }
+    /* box4 */
+    .container2{
+        margin-top: 1em;
+    }
+    .box4{
+        height: 400px;
+    }
+    .box4 h2{
+        top: -15px;
+        left: 15px;
+    }
+    .box4 img{
+        left: 7vw;
+        top: 0;
+        height: 50px;
+        width: 9vw;
+    }
+    .box4 hr{
+        width: 70vw;
+    }
+    .dabba{
+        /* border: 2px solid red; */
+        width: 53vw;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .dabba1{
+        margin-top: 20px;
+        height: 120px;
+        width: 22vw;
+    }
+    .dabba1 img{
+        width: 10vw;
+        height: 40px;
+        margin: 12px 0px 0px -2vw;
+    }
+    .dabba1 h3{
+        font-size: 4vw;
+    }
+    .dabba1 p{
+        font-size: 2.5vw;
+    }
+    .foot .logo i{
+        margin: 20px 5px;
+    }
+    .foot h3{
+        font-size: 5vw;
+    }
+    .foot i{
+        font-size: 4vw;    }
+    .foot span{
+        font-size: 4vw;
+    }
+}

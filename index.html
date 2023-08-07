@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bnirs-Real Esatate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="head-logo">
+        <img src="logo.png" alt="" />
+        <span>Bniris</span>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><i class="bx bx-search"></i></li>
+        </ul>
+      </nav>
+      <div class="toggle-btn"><i class="fa-solid fa-bars"></i></div>
+        <div class="dropdown-menu">   
+            <a href="#">Home</a>
+            <a href="#">Management</a>
+            <a href="#">Pricing</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <!-- <i class="bx bx-search"></i> -->
+        </div>
+    </header>
+
+    <section class="container1">
+      <div class="box1">
+        <h3>What's Your Annual Salary?</h3>
+        <p>We will match best property for you</p>
+        <div class="box">
+          <p>$12468 - $4365</p>
+          <button class="btn">Go</button>
+        </div>
+        <img src="kitchen.jpg" alt="" />
+        <div class="icon">
+          <i class="bx bxs-bed"><span>2 Beds</span></i>
+          <i class="bx bxs-bath"><span>2 Baths</span></i>
+          <i class="bx bxs-chart"><span>1,600" ft</span></i>
+        </div>
+      </div>
+
+      <div class="box2">
+        <h1>Discover your most comfort place for tour future life</h1>
+        <div class="content">
+          <div class="map">
+            <img src="map.png" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Automation is especially beneficial in hazardous environments
+              where human presence might pose risk
+            </p>
+            <i class="bx bx-chalkboard"></i>
+            <h5>HOW IT WORKS?</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container2">
+      <div class="box3">
+        <button class="btn2">GET STARTED</button>
+        <span>Three Easy Steps</span>
+        <hr />
+        <p>Let's Go Home</p>
+        <div class="dir">
+          <i class="bx bx-current-location"></i>
+          <span style="color: rgb(246, 103, 37)">|</span>
+          <p class="para">
+            Automation is especially beneficial in hazardous environments where
+            human presence might pose risk
+          </p>
+        </div>
+      </div>
+      <div class="box4">
+        <h2>Choose Your Country</h2>
+        <img src="abc.png" alt="" />
+        <hr />
+        <div class="dabba">
+          <div class="dabba1">
+            <img src="span.png" alt="" />
+            <h3>Spain</h3>
+            <p>92 miles away</p>
+          </div>
+          <div class="dabba1">
+            <img src="italy.png" alt="" />
+            <h3>Italy</h3>
+            <p>36 miles away</p>
+          </div>
+          <div class="dabba1">
+            <img src="german.png" alt="" />
+            <h3>Germany</h3>
+            <p>40 miles away</p>
+          </div>
+          <div class="dabba1">
+            <img src="france.png" alt="" />
+            <h3>France</h3>
+            <p>36 miles away</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <h2>Bniris</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut,<br />
+        nostrum assumenda natus eveniet ipsum qui!
+      </p>
+      <div class="logo">
+        <i class="bx bxl-youtube"></i>
+        <i class="bx bxl-instagram-alt"></i>
+        <i class="bx bxl-facebook"></i>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-linkedin-square"></i>
+      </div>
+      <h3>Copyright</h3>
+      <i class="bx bx-copyright"></i>
+      <span>2023 bniris.com</span>
+    </footer>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle-btn");
+      const toggleBtnIcon = document.querySelector(".toggle-btn i");
+      const dropDownMenu = document.querySelector(".dropdown-menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </body>
+</html>
